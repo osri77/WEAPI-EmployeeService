@@ -1,0 +1,10 @@
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll.config
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.pdb
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.dll
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.xml
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csprojResolveAssemblyReference.cache
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
+C:\Temp\WEBAPI\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
