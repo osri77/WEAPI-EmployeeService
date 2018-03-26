@@ -29,7 +29,7 @@ namespace EmployeeService
             );
 
 
-            config.Formatters.Add(new CustomJsonFormatter());
+          //  config.Formatters.Add(new CustomJsonFormatter());
           //  config.Formatters.Remove(config.Formatters.XmlFormatter);
           //  config.Formatters.Remove(config.Formatters.JsonFormatter);
 
@@ -39,7 +39,7 @@ namespace EmployeeService
         }
 
 
-
+/*
         public class CustomJsonFormatter : JsonMediaTypeFormatter
         {
             public CustomJsonFormatter()
@@ -53,6 +53,6 @@ namespace EmployeeService
                 headers.ContentType = new MediaTypeHeaderValue("application/json");
             }
         }
-
+*/
     }
 }
