@@ -10,8 +10,8 @@ namespace EmployeeService.Controllers
 {
     public class EmployeesController : ApiController
     {
-        [HttpGet]
-        public IEnumerable <Employee> LoadEmployees()
+       
+        /*public IEnumerable <Employee> Get()
         {
             using (EmployeeDBEntities entities = new EmployeeDBEntities())
             {
@@ -20,9 +20,31 @@ namespace EmployeeService.Controllers
 
             }
         }
+        */
 
-        [HttpGet]
-        public HttpResponseMessage LoadEmployeesById(int id)
+        public HttpResponseMessage Get(string gender="All")
+        {
+
+            using (EmployeeDBEntities entities = new EmployeeDBEntities())
+            {
+                switch(gender.ToLower())
+                {
+                    case "all":
+                            return Request.CreateResponse(HttpStatusCode.OK, entities.Employees.ToList());
+                    case "male":
+                            return Request.CreateResponse(HttpStatusCode.OK, entities.Employees.Where(e=>e.Gender.ToLower()=="male").ToList());
+                    case "female":
+                        return Request.CreateResponse(HttpStatusCode.OK, entities.Employees.Where(e => e.Gender.ToLower() == "female").ToList());
+                    default:
+                        return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Value for gender must be Male, Female or All. " + gender + " is invalid.");
+
+                }
+
+
+            }
+        }
+
+        public HttpResponseMessage Get(int id)
         {
             try
             {
