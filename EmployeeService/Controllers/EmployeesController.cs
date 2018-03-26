@@ -100,5 +100,41 @@ namespace EmployeeService.Controllers
             }
         }
 
+
+        public HttpResponseMessage Put(int id, [FromBody]Employee employee)
+        {
+            try
+            {
+                using (EmployeeDBEntities entities= new EmployeeDBEntities())
+                {
+                    var entity = entities.Employees.FirstOrDefault(e => e.ID == id);
+                    if(entity != null)
+                    {
+                        entity.FirstName = employee.FirstName;
+                        entity.LastName = employee.LastName;
+                        entity.Gender = employee.Gender;
+                        entity.Salary = employee.Salary;
+
+                        entities.SaveChanges();
+                        return Request.CreateResponse(HttpStatusCode.OK,entity);
+
+
+                    }
+                    else
+                    {
+                        return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Employee with id " + id + " not found. ");
+                    }
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest,ex);
+            }
+
+
+        }
+
     }
 }
