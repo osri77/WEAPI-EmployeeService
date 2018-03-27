@@ -90,3 +90,5 @@ C:\Temp\WEBAPI\EmployeeService\EmployeeService\bin\System.Web.Http.Owin.xml
 C:\Temp\WEBAPI\EmployeeService\EmployeeService\obj\Debug\EmployeeService.csprojResolveAssemblyReference.cache
 C:\Temp\WEBAPI\EmployeeService\EmployeeService\obj\Debug\EmployeeService.dll
 C:\Temp\WEBAPI\EmployeeService\EmployeeService\obj\Debug\EmployeeService.pdb
+C:\Temp\WEBAPI\EmployeeService\EmployeeService\bin\WebApiContrib.Formatting.Jsonp.dll
+C:\Temp\WEBAPI\EmployeeService\EmployeeService\bin\WebApiContrib.Formatting.Jsonp.pdb
