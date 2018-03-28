@@ -49,7 +49,9 @@ namespace EmployeeService
 
             config.EnableCors();
 
-            config.Filters.Add(new RequireHttpsAttribute());
+            //   config.Filters.Add(new RequireHttpsAttribute());
+
+           // config.Filters.Add(new BasicAuthenticationAttribute());
 
 
         }

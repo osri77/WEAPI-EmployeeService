@@ -74,6 +74,5 @@ C:\Temp\WEBAPI\EmployeeService\ClientApplication\bin\Microsoft.Owin.Security.Goo
 C:\Temp\WEBAPI\EmployeeService\ClientApplication\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Temp\WEBAPI\EmployeeService\ClientApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Temp\WEBAPI\EmployeeService\ClientApplication\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Temp\WEBAPI\EmployeeService\ClientApplication\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache
 C:\Temp\WEBAPI\EmployeeService\ClientApplication\obj\Debug\ClientApplication.dll
 C:\Temp\WEBAPI\EmployeeService\ClientApplication\obj\Debug\ClientApplication.pdb

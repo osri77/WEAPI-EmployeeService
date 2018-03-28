@@ -22,3 +22,15 @@ Insert into Employees values ('Mary', 'Lambeth', 'Female', 30000)
 Insert into Employees values ('Valarie', 'Vikings', 'Female', 35000)
 Insert into Employees values ('John', 'Stanmore', 'Male', 80000)
 Go
+
+
+
+Create Table Users
+(
+     Id int identity primary key,
+     Username nvarchar(100),
+     Password nvarchar(100)
+)
+
+Insert into Users values ('male','male')
+Insert into Users values ('female','female')
