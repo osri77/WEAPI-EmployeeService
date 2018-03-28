@@ -76,3 +76,4 @@ C:\Temp\WEBAPI\EmployeeService\ClientApplication\bin\Microsoft.Owin.Security.Mic
 C:\Temp\WEBAPI\EmployeeService\ClientApplication\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Temp\WEBAPI\EmployeeService\ClientApplication\obj\Debug\ClientApplication.dll
 C:\Temp\WEBAPI\EmployeeService\ClientApplication\obj\Debug\ClientApplication.pdb
+C:\Temp\WEBAPI\EmployeeService\ClientApplication\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache
